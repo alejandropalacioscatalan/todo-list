@@ -1,0 +1,54 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.icono_borrar {
+  width: 25px;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+}
+
+.contenedor-todo {
+  /* display: flex;
+  flex-direction: column; */
+  width: 70%;
+  background-color: rgb(211, 210, 210);
+  padding: 20px;
+  border: black 2px solid;
+  border-radius: 3px;
+}
+
+#nuevaTarea {
+  font-size: 18px;
+  border-radius: 2px;
+  width: 60vw;
+  border: grey 1px solid;
+}
+
+#agregarTarea {
+  cursor: pointer;
+  color: white;
+  background-color: #275b27;
+  width: 9vw;
+  font-size: 16px;
+  border-radius: 4px;
+  height: 25px;
+}
+
+.seccion-tareas {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#detalle-tareas {
+  padding: 10px;
+  border: 3px red solid;
+}
